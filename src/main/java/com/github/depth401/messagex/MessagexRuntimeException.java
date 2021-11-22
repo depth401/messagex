@@ -21,7 +21,7 @@ public final class MessagexRuntimeException extends RuntimeException {
   private static final List<Filter> DEFAULT_MESSAGE_FILTERS = List.of();
 
   private static final List<Masker> DEFAULT_MASKERS = List.of(Masker.MASK_ALL);
-  
+
   public MessagexRuntimeException() {
     this(null, null, DEFAULT_EXCEPTION_FILTERS, DEFAULT_MESSAGE_FILTERS, DEFAULT_MASKERS);
   }
